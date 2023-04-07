@@ -77,3 +77,8 @@ Here are the general steps you could follow to build the codebase for a bus tran
 5. Monitor and maintain the system: Set up monitoring and alerting systems to detect any issues with the data pipeline or GTFS feed generation. Regularly review the data to ensure that it is accurate and up-to-date.
 
 These are the basic steps involved in building a codebase for a bus transit agency to publish GTFS feeds to Google Maps based on real-time data from a mobile app via MQTT and Apache Kafka. However, this is a complex task and may require additional steps or considerations based on the specific requirements of your project. (ChatGPT)
+
+***
+The estimated time of arrival (ETA) of the bus is calculated by Google Maps using the GTFS real-time data that is published by the transit agency. When a user searches for directions using Google Maps, it queries the GTFS API for real-time information about the transit service, including the location and predicted arrival times of the next bus. The GTFS API then calculates the ETA based on the real-time data and other information such as traffic and historical travel times.
+
+In terms of the codebase, the logic for calculating the ETA is typically handled by the GTFS API and not by the scripts in the project. However, you can customize the display of the ETA in the Google Maps interface by modifying the GTFS feed to include additional information such as the number of stops before a particular destination or the expected travel time between stops.
