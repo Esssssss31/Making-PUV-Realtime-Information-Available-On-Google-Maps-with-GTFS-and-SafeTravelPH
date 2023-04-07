@@ -1,4 +1,4 @@
-# A sample raw data file that can be ingested by the ingestion.py script.
+# A sample raw data file that can be ingested by the data_ingestion(dot)py script.
 
 {
     "bus1": {
