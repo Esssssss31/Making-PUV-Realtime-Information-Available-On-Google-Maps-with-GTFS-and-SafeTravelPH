@@ -1,3 +1,5 @@
+# A file that specifies which files and folders should be excluded from version control.
+
 # Python
 __pycache__/
 *.py[cod]
