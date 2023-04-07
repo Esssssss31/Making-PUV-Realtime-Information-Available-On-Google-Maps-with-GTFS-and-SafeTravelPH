@@ -133,3 +133,12 @@ These are the basic steps involved in building a codebase for a PUV agency/opera
 The estimated time of arrival (ETA) of available PUVs is calculated by Google Maps using the GTFS real-time data that is published by the transit agency. When a user searches for directions using Google Maps, it queries the GTFS API for real-time information about the transit service, including the location and predicted arrival times of the next bus. The GTFS API then calculates the ETA based on the real-time data and other information such as traffic and historical travel times.
 
 In terms of the codebase, the logic for calculating the ETA is typically handled by the GTFS API and not by the scripts in the project. However, you can customize the display of the ETA in the Google Maps interface by modifying the GTFS feed to include additional information such as the number of stops before a particular destination or the expected travel time between stops.
+
+***
+## Accelerate mobility tech innovations with us!
+
+Our organization is dedicated to promoting open data for public transport in the Philippines and building longterm partnerships. We believe that open data, open source, and open governance can lead to better public transportation services, improved commuter experience, and sustainable operations and dignified livelihood for transport workers.
+
+We invite government agencies, local government units, professionals, advocates, operators, students, and academics to contribute in our open source software projects, and other policy research and development programs, under the Participatory Action Research framework.
+
+What to do more with us? Be a member of SafeTravelPH! We are a SEC-accredited membership organization and we want help develop and capacitate modern transport practitioners and researchers.  Learn more about our membership application [here](https://docs.google.com/forms/d/1J9pBTvL9IxxGj236DBxRdyDEo6CnXCteiZWhntx8T8w/edit).
