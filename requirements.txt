@@ -1,0 +1,7 @@
+# The requirements.txt file typically lists all the Python packages that your project depends on. Here's an example of what a requirements.txt file might look like for a project that uses some common Python libraries like Flask, pandas, and pymongo
+# Each line in the requirements.txt file specifies a package name and a version number. You can include as many packages as you need, and you can use different operators to specify version ranges, such as >=, <=, ~=, and ==.
+# Note that you can generate a requirements.txt file automatically by running the command pip freeze > requirements.txt in your project's virtual environment. This command will create a requirements.txt file that lists all the packages currently installed in your virtual environment along with their version numbers.
+
+Flask==2.1.0
+pandas==1.3.4
+pymongo==4.1.1
