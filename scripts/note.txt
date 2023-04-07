@@ -1,2 +1,20 @@
 These scripts can be executed from the command line to run each step of the public transport tracking system. 
 They can also be called from a CI/CD pipeline or a scheduler to automate the process.
+
+here's a list of files you might consider including in the scripts/ folder for your project:
+
+1. setup.sh: A script that sets up the required dependencies for the project, such as Python packages, Apache Kafka, and MongoDB.
+
+2. start.sh: A script that starts the different components of the pipeline, such as the data ingestion, processing, and storage scripts.
+
+3. stop.sh: A script that stops the different components of the pipeline.
+
+4. test.sh: A script that runs the unit tests for the project.
+
+5. deploy.sh: A script that deploys the project to a remote server or cloud platform, such as Amazon Web Services or Google Cloud Platform.
+
+6. backup.sh: A script that backs up the project data, such as the MongoDB database and Kafka logs, to a remote location.
+
+7. cleanup.sh: A script that cleans up any temporary files or directories created by the project.
+
+Again, this is just a basic list, and you may need to customize it based on the specific requirements of your project. But these files should provide a good starting point for managing the various aspects of your pipeline and making it easier to deploy, test, and maintain your project.
