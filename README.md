@@ -8,6 +8,12 @@ LGUs, DOTr offices or operators, or a consortium of this stakeholders (or as Goo
 
 This project helps operators make their services more accessible and convenient for commuters, improving the overall public transport experience in the Philippines. Operators can make their services more visible to the public, which can lead to an increase in ridership. Lastly, local government units can use this as a tool to monitor and improve public transport in their areas.
 
+![alt text](https://github.com/Esssssss31/SafeTravelPH-GTFS-on-Google-Maps-Project/blob/main/md-files/stphlogo.png "SafeTravelPH")
+
+![alt text][logo]
+
+[logo]: https://github.com/Esssssss31/SafeTravelPH-GTFS-on-Google-Maps-Project/blob/main/md-files/stphlogo.png "SafeTravelPH"
+
 # Publishing Public Transport Feeds Using GTFS from SafeTravelPH Drivers App to Google Maps
 
 This is an open source project for publishing a General Transit Feed Specification (GTFS) feed for the public transit system in the Philippines. The project consists of Python scripts for ingesting, processing, and storing real-time transit data, as well as generating a GTFS feed that can be published on Google Maps and other transit mapping platforms. 
