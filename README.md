@@ -1,4 +1,4 @@
-# What we are working on?
+# What are we working on?
 
 SafeTravelPH  Mobility Innovations Organization, Inc., a nonprofit NGO based in UP Diliman, has created an open-source project that aims to help LGUs and transport operators in the Philippines publish their public transport schedules and route information on Google Maps. This project is intended to make it easier for commuters to access information about realtime bus/UV/jeep arrival times on Google Maps. 
 
@@ -10,7 +10,7 @@ This project helps operators make their services more accessible and convenient 
 
 # Publishing Public Transport Feeds Using GTFS from SafeTravelPH Drivers App to Google Maps
 
-This is an open source project for publishing a General Transit Feed Specification (GTFS) feed for the public transit system in the Philippines. The project consists of Python scripts for ingesting, processing, and storing real-time transit data, as well as generating a GTFS feed that can be published on Google Maps and other transit mapping platforms. 
+This is an open source project for publishing a General Transit Feed Specification (GTFS) feed for public transport system in the Philippines. The project consists of Python scripts for ingesting, processing, and storing real-time transit data, as well as generating a GTFS feed that can be published on Google Maps and other transit mapping platforms. 
 
 This project of publishing GTFS feeds to Google Maps uses data from a PUV Driver's tracking mobile app via MQTT and Apache Kafka. The mobile app in this case is the [SafeTravelPH app](https://play.google.com/store/apps/details?id=ph.safetravel.app&hl=en&gl=US). A case study of this data system was done in partnership with Puerto Princesa City's ISTOPP (Information System for Transport Operations in Puerto Princesa) under the [NEDA Innovation Grant in 2022](https://www.gmanetwork.com/news/money/economy/861554/innovation-council-approved-19-projects-worth-p115m-neda-chief/story/).
 
@@ -83,7 +83,7 @@ Contributions to the project are welcome and encouraged. To contribute, follow t
 This project is licensed under the [LICENSE] License. See the [LICENSE](LICENSE) file for more details.
 
 ***
-To connect your completed project to Google Maps or Google Transit, you will need to create a Google Cloud project, enable the Google Transit API, and set up the necessary credentials and authentication.
+To connect your completed project to Google Maps or Google, you will need to create a Google Cloud project, enable the Google Transit API, and set up the necessary credentials and authentication.
 
 Here are the basic steps you can follow:
 
@@ -110,7 +110,7 @@ Once your agency is registered, you will receive a transit-agency-id that you wi
 You do not need to include any information about your registration or certification in your code or repository. The registration process is separate from the development and deployment of your software, and it is managed through the Google Transit Partner program. Once your agency is registered and your data feed is published on Google Maps, your app or software can access the data using the Google Transit API client library and the appropriate credentials and authentication.
 
 ***
-Here are the general steps you could follow to build the codebase for a bus transit agency to publish GTFS feeds to Google Maps based on real-time data from a mobile app via MQTT and Apache Kafka:
+Here are the general steps you could follow to build the codebase for a PUV agency/operator to publish GTFS feeds to Google Maps based on real-time data from a mobile app via MQTT and Apache Kafka:
 
 1. Define the data format: Determine the data format and structure of the real-time data being sent by the mobile app. You may need to use a protocol buffer like GTFS Realtime or define your own data schema.
 
@@ -122,9 +122,9 @@ Here are the general steps you could follow to build the codebase for a bus tran
 
 5. Monitor and maintain the system: Set up monitoring and alerting systems to detect any issues with the data pipeline or GTFS feed generation. Regularly review the data to ensure that it is accurate and up-to-date.
 
-These are the basic steps involved in building a codebase for a bus transit agency to publish GTFS feeds to Google Maps based on real-time data from a mobile app via MQTT and Apache Kafka. However, this is a complex task and may require additional steps or considerations based on the specific requirements of your project. (ChatGPT)
+These are the basic steps involved in building a codebase for a PUV agency/operator to publish GTFS feeds to Google Maps based on real-time data from a mobile app via MQTT and Apache Kafka. However, this is a complex task and may require additional steps or considerations based on the specific requirements of your project. (ChatGPT)
 
 ***
-The estimated time of arrival (ETA) of the bus is calculated by Google Maps using the GTFS real-time data that is published by the transit agency. When a user searches for directions using Google Maps, it queries the GTFS API for real-time information about the transit service, including the location and predicted arrival times of the next bus. The GTFS API then calculates the ETA based on the real-time data and other information such as traffic and historical travel times.
+The estimated time of arrival (ETA) of the is calculated by Google Maps using the GTFS real-time data that is published by the transit agency. When a user searches for directions using Google Maps, it queries the GTFS API for real-time information about the transit service, including the location and predicted arrival times of the next bus. The GTFS API then calculates the ETA based on the real-time data and other information such as traffic and historical travel times.
 
 In terms of the codebase, the logic for calculating the ETA is typically handled by the GTFS API and not by the scripts in the project. However, you can customize the display of the ETA in the Google Maps interface by modifying the GTFS feed to include additional information such as the number of stops before a particular destination or the expected travel time between stops.
