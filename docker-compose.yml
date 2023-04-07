@@ -1,3 +1,5 @@
+# A Docker Compose file that defines the services and dependencies needed to run the project.
+
 version: "3"
 
 services:
