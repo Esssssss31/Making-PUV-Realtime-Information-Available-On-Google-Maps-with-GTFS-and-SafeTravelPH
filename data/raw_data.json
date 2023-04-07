@@ -1,0 +1,24 @@
+# A sample raw data file that can be ingested by the ingestion.py script.
+
+{
+    "bus1": {
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "timestamp": 1649743700
+    },
+    "bus2": {
+        "lat": 37.7931,
+        "lon": -122.4179,
+        "timestamp": 1649743720
+    },
+    "bus3": {
+        "lat": 37.7858,
+        "lon": -122.4019,
+        "timestamp": 1649743740
+    },
+    "bus4": {
+        "lat": 37.7763,
+        "lon": -122.4242,
+        "timestamp": 1649743760
+    }
+}
