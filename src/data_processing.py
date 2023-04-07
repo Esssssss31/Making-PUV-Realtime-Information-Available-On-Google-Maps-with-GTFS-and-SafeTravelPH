@@ -1,10 +1,15 @@
-# Here's a sample code for a data_processing.py script that reads data from a MongoDB collection, transforms it into GTFS format, and saves it to a file.
-# This code reads data from a MongoDB collection, transforms it into GTFS format, and saves it to a CSV file. 
+# Here's a sample code for a data_processing.py script that reads data from a MongoDB collection, 
+# transforms it into GTFS format, and saves it to a file.
+# This code reads data from a MongoDB collection, transforms it into GTFS format, 
+# and saves it to a CSV file. 
 # It first sets up the MongoDB client and GTFS output file configuration. 
-#It defines a function to format time strings as HH:MM:SS. Then, it loops through the MongoDB collection and processes each document. 
-# It calculates the elapsed time between the start time and the timestamp of each document, and uses this to generate the stop ID and stop sequence. 
-# Finally, it writes each row to the CSV file. T
-# The output file contains data in the format required by the Google Transit Feed Specification, which can be used to publish transit data to Google Transit.
+# It defines a function to format time strings as HH:MM:SS. 
+# Then, it loops through the MongoDB collection and processes each document. 
+# It calculates the elapsed time between the start time and the timestamp of each document,
+# and uses this to generate the stop ID and stop sequence. 
+# Finally, it writes each row to the CSV file. 
+# The output file contains data in the format required by the Google Transit Feed Specification, 
+# which can be used to publish transit data to Google Transit.
 
 import csv
 from pymongo import MongoClient

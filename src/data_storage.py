@@ -1,5 +1,7 @@
-# Here's a sample code for a data_storage.py script that receives real-time bus location data via MQTT and saves it to a MongoDB database.
-# This is just a basic example and it may need to be modified to fit the specific requirements of your project.
+# Here's a sample code for a data_storage.py script that receives 
+# real-time bus location data via MQTT and saves it to a MongoDB database.
+# This is just a basic example and it may need to be modified to fit 
+# the specific requirements of your project.
 
 import paho.mqtt.client as mqtt
 from pymongo import MongoClient

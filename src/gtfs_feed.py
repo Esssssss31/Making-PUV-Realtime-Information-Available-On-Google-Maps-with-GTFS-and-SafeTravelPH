@@ -1,4 +1,5 @@
-# here's a sample code for a gtfs_feed.py script that generates a GTFS feed for a bus transit agency 
+# here's a sample code for a gtfs_feed.py script that generates 
+# a GTFS feed for a bus transit agency 
 # using the gtfs-realtime-bindings and protobuf libraries
 
 from gtfs_realtime_pb2 import FeedMessage
@@ -26,5 +27,6 @@ def generate_feed(bus_data):
     
     return serialized_feed
 
-  # Note: This is just a basic example and it may need to be modified to fit the specific requirements of your project. Also, this example assumes that you already have the bus location data in a format that can be used to generate the GTFS feed.
+  # Note: This is just a basic example and it may need to be modified to fit the specific requirements of your project. 
+  # Also, this example assumes that you already have the bus location data in a format that can be used to generate the GTFS feed.
   

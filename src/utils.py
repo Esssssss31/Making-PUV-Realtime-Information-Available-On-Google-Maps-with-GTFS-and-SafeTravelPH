@@ -1,6 +1,9 @@
-# here is an example code for utils.py that includes a function for reading data from a MongoDB database.
-# This function uses the pymongo library to connect to a MongoDB database and read data from a specified collection. 
-# The function takes the names of the database and collection as parameters, and returns a list of dictionary objects containing the data from the collection.
+# here is an example code for utils.py that includes a function for reading data 
+# from a MongoDB database.
+# This function uses the pymongo library to connect to a MongoDB database 
+# and read data from a specified collection. 
+# The function takes the names of the database and collection as parameters, 
+# and returns a list of dictionary objects containing the data from the collection.
 
 from pymongo import MongoClient
 

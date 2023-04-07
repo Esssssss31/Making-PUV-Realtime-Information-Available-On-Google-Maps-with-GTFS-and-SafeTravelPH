@@ -1,7 +1,14 @@
-# A Python script that receives real-time data from the mobile app via MQTT and stores it in Apache Kafka.
-# here's a sample code for a data_ingestion.py script that reads real-time location data from a Kafka topic and saves it to a MongoDB database
-# This script uses the kafka-python library to create a Kafka consumer that reads messages from a bus-location topic and deserializes the JSON data. It then uses the pymongo library to create a connection to a local MongoDB database and collection, and saves each message as a document in the bus_location collection.
-# Note that this is just a basic example and you may need to modify it to fit your specific requirements and data schema. You will also need to install the necessary libraries and configure your Kafka and MongoDB instances accordingly.
+# A Python script that receives real-time data from the mobile app via MQTT 
+# and stores it in Apache Kafka.
+# here's a sample code for a data_ingestion.py script that reads real-time location 
+# data from a Kafka topic and saves it to a MongoDB database
+# This script uses the kafka-python library to create a Kafka consumer that reads messages 
+# from a bus-location topic and deserializes the JSON data. 
+# It then uses the pymongo library to create a connection to a local MongoDB database and collection, 
+# and saves each message as a document in the bus_location collection.
+# Note that this is just a basic example and you may need to modify it 
+# to fit your specific requirements and data schema. 
+# You will also need to install the necessary libraries and configure your Kafka and MongoDB instances accordingly.
 
 import json
 from kafka import KafkaConsumer
