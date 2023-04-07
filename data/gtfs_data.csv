@@ -7,3 +7,8 @@ route_id,service_id,trip_id,trip_headsign,arrival_time,departure_time,stop_id,st
 1,weekday,1,Uptown,08:20:00,08:20:00,300,3
 1,weekday,1,Uptown,08:30:00,08:30:00,400,4
 1,weekday,1,Uptown,08:40:00,08:40:00,500,5
+
+# This file includes data for a single route (with route_id of 1) and a single trip (trip_id of 1), 
+# with stops at five different locations (stop_id values of 100-500). 
+# The arrival_time and departure_time fields indicate the scheduled arrival and departure times at each stop, 
+# while the stop_sequence field indicates the order of stops on the trip.
