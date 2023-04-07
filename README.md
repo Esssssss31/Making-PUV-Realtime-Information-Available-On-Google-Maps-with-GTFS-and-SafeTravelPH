@@ -29,6 +29,10 @@ The project is organized into the following directories:
 - `scripts/`: Python scripts for ingesting, processing, and storing transit data, as well as generating the GTFS feed.
 - `tests/`: Unit tests for the Python scripts.
 
+## Let's collaborate!
+
+You will need to receive real-time data from the SafeTravelPH mobile app via MQTT and store it in Apache Kafka. Contact SafeTravelPH at fb.com/safetraveldotph to start working on this project.
+
 ## Setup
 
 To set up the project, follow these steps:
