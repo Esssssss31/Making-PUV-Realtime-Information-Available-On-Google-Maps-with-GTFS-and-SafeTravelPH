@@ -1,0 +1,2 @@
+These scripts can be executed from the command line to run each step of the public transport tracking system. 
+They can also be called from a CI/CD pipeline or a scheduler to automate the process.
