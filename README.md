@@ -12,7 +12,7 @@ This project helps operators make their services more accessible and convenient 
 
 This is an open source project for publishing a General Transit Feed Specification (GTFS) feed for the public transit system in the Philippines. The project consists of Python scripts for ingesting, processing, and storing real-time transit data, as well as generating a GTFS feed that can be published on Google Maps and other transit mapping platforms. 
 
-This project of publishing GTFS feeds to Google Maps uses data from a PUV Driver's tracking mobile app via MQTT and Apache Kafka. The mobile app in this case is the [SafeTravelPH app](https://play.google.com/store/apps/details?id=ph.safetravel.app&hl=en&gl=US). A case study of this data system is done with Puerto Princesa City's ISTOPP (Information System for Transport Operations in Puerto Princesa) under the [NEDA Innovation Grant in 2022](https://www.gmanetwork.com/news/money/economy/861554/innovation-council-approved-19-projects-worth-p115m-neda-chief/story/).
+This project of publishing GTFS feeds to Google Maps uses data from a PUV Driver's tracking mobile app via MQTT and Apache Kafka. The mobile app in this case is the [SafeTravelPH app](https://play.google.com/store/apps/details?id=ph.safetravel.app&hl=en&gl=US). A case study of this data system was done in partnership with Puerto Princesa City's ISTOPP (Information System for Transport Operations in Puerto Princesa) under the [NEDA Innovation Grant in 2022](https://www.gmanetwork.com/news/money/economy/861554/innovation-council-approved-19-projects-worth-p115m-neda-chief/story/).
 
 Contact SafeTravelPH and Puerto Princesa City's City Planning and Development Office for more information and collaboration. 
 
