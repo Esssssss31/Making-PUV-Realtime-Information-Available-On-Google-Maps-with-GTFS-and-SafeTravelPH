@@ -141,4 +141,4 @@ Our organization is dedicated to promoting open data for public transport in the
 
 We invite government agencies, local government units, professionals, advocates, operators, students, and academics to contribute in our open source software projects, and other policy research and development programs, under the Participatory Action Research framework.
 
-What to do more with us? Be a member of SafeTravelPH! We are a SEC-accredited membership organization and we want help develop and capacitate modern transport practitioners and researchers.  Learn more about our membership application [here](https://docs.google.com/forms/d/1J9pBTvL9IxxGj236DBxRdyDEo6CnXCteiZWhntx8T8w/edit).
+Want to do more with us? Be a member of SafeTravelPH! We are a SEC-accredited membership organization and we want help develop and capacitate modern transport practitioners and researchers.  Learn more about our membership application [here](https://docs.google.com/forms/d/1J9pBTvL9IxxGj236DBxRdyDEo6CnXCteiZWhntx8T8w/edit).
