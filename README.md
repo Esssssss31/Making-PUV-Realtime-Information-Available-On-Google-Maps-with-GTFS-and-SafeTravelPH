@@ -1,5 +1,69 @@
 # SafeTravelPH-GTFS-on-Google-Maps-Project
 
+This is an open source project for publishing a General Transit Feed Specification (GTFS) feed for the public transit system in the Philippines. The project consists of Python scripts for ingesting, processing, and storing real-time transit data, as well as generating a GTFS feed that can be published on Google Maps and other transit mapping platforms.
+
+## Project Structure
+
+The project is organized into the following directories:
+
+- `config/`: Configuration files for the project, including API keys and database connection settings.
+- `data/`: Example data files for testing the ingestion and processing scripts.
+- `scripts/`: Python scripts for ingesting, processing, and storing transit data, as well as generating the GTFS feed.
+- `tests/`: Unit tests for the Python scripts.
+
+## Setup
+
+To set up the project, follow these steps:
+
+1. Clone the repository to your local machine:
+
+git clone https://github.com/{username}/{project_name}.git
+
+
+2. Install the required Python packages by running:
+
+pip install -r requirements.txt
+
+
+3. Set up the configuration files in the `config/` directory with your API keys and database connection settings.
+
+## Usage
+
+To run the project, follow these steps:
+
+1. Start the data ingestion script to begin receiving real-time transit data:
+
+python scripts/data_ingestion.py
+
+2. Once data is being ingested, start the data processing script to clean and transform the data into a format suitable for the GTFS feed:
+
+python scripts/data_processing.py
+
+3. After the data has been processed, start the data storage script to store the data in a MongoDB database:
+
+python scripts/data_storage.py
+
+4. Finally, run the GTFS feed script to generate the feed file and upload it to the Google Maps Transit API:
+
+python scripts/gtfs_feed.py
+
+
+## Contributing
+
+Contributions to the project are welcome and encouraged. To contribute, follow these steps:
+
+1. Fork the repository to your GitHub account.
+
+2. Make changes to the codebase and commit them to your forked repository.
+
+3. Submit a pull request to the main repository with a clear explanation of the changes you have made.
+
+## License
+
+This project is licensed under the [LICENSE] License. See the [LICENSE](LICENSE) file for more details.
+
+
+***
 Here are the general steps you could follow to build the codebase for a bus transit agency to publish GTFS feeds to Google Maps based on real-time data from a mobile app via MQTT and Apache Kafka:
 
 1. Define the data format: Determine the data format and structure of the real-time data being sent by the mobile app. You may need to use a protocol buffer like GTFS Realtime or define your own data schema.
