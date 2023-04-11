@@ -6,6 +6,8 @@ It involves creating a GTFS (Google Transit Feed Specifications) feed, a standar
 
 LGUs, DOTr offices or operators, or a consortium of these stakeholders (or as Google identifies as 'Local Transit Agencies') will need to register for a free account on Google Transit to be able to publish the data and inform their local commuters of PUV services on Google Maps. 
 
+![alt text](https://github.com/Esssssss31/Making-PUV-Realtime-Information-Available-On-Google-Maps-with-GTFS-and-SafeTravelPH/blob/main/md-files/gtfs%20rt.png "Use Cases of GTFS Realtime standard")
+
 ## Why adopt and use GTFS and Google Maps realtime public transport information?
 
 This project helps operators make their services more accessible and convenient for commuters, improving the overall public transport experience in the Philippines. Operators can make their services more visible to the public, which can lead to an increase in ridership. Lastly, local government units can use this as a tool to monitor and improve public transport in their areas.
